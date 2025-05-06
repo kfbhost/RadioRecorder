@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+.next/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Recordings directory (don't track user recordings)
+recordings/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker volumes
+docker-data/
+
+# System Files
+.DS_Store
+Thumbs.db 

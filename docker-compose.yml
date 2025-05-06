@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: radio-recorder
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./recordings:/app/recordings
+    environment:
+      - TZ=UTC 
